@@ -1,0 +1,52 @@
+* { 
+    font-family: 'Martel', serif;
+    color: #F2EEB3;
+}
+
+.link1:hover {
+    color: lightblue;
+    font-weight: none;
+}
+
+li:hover {
+    background-color: #979DA6;
+}
+
+.link2:active {
+    color: #F2EEB3;
+    font-family: cursive;
+}
+
+.link3:visited {
+    color: none;
+}
+
+input[type=text]:focus {
+    color: #68788C;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #F2E205;
+}
+
+li {
+    display: inline;
+    padding: 8px 16px 8px 16px;
+}
+
+li:first-child {
+    margin-left: -16px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.nav {
+    background-color: #68788C;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.currentPage {
+    background-color: #979DA6;
+}
